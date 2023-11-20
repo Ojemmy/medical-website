@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <title>Figma Medical Clone</title>
+</head>
+<body>
+    
+    <!-- Navigation Section -->
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/LOGO.png" alt="logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark nav-icon" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#service">Services</a></li>
+                    <li><a href="">Pages</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars nav-icon" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <p class="text1">We Provide</p>
+            <h1>Full Medical Care!</h1>
+            <p>Heighest standard of customer service</p>
+            <a href="" class="btn">Know More</a>
+        </div>
+
+    </section>
+
+    <!-- About Us Section -->
+
+    <section class="grid1" id="about">
+        <h2 class="text-box2">Our Department</h2>
+        <div class="box">
+            <img src="images/icons8_doctors_bag_128px_2 1.png" alt="Doctors Bag">
+            <h2>24 Hour Emergency</h2>
+            <p class="box-text">Open round the clock for convenience, quick and easy access.</p>
+        </div>
+        <div class="box">
+            <img src="images/icons8_lab_items_240px_1 1.png" alt="Lab Items">
+            <h2>Complete Lab Service</h2>
+            <p class="box-text">Cost-efficient, comphensive and clinical laboratory services.</p>
+        </div>
+        <div class="box hidden-one">
+            <img src="images/icons8_Medical_Doctor_200px 1.png" alt="A Doctor">
+            <h2>Medical Professionals</h2>
+            <p class="box-text">Qualified and certified physician for quality medical care.</p>
+        </div>
+    </section>
+
+    <section class="department">
+        <div class="text-box2">
+            <h2 class="text 2">Our Department</h2>
+            <p>Lmedic medical care specialises in various services for the convenience of the patients</p>
+        </div>
+
+        <div class="grid2">
+            <div class="grid2-icon"><img src="images/icons8_brain_200px 1.svg" alt="Brain"><p>Psychiatry</p></div>
+            <div><img src="images/icons8_test_tube_240px 1.svg" alt="Test Tube"><p>Laboratory</p></div>
+            <div><img src="images/icons8_tooth_100px_1 1.svg" alt="Tooth"><p>Dentistry</p></div>
+            <div><img src="images/icons8_heart_with_pulse_100px_1 1.svg" alt="Heart with pulse"><p>Cardiology</p></div>
+            <div><img src="images/icons8_vagina_100px_1 1.svg" alt="Vagina"><p>Gynecology</p></div>
+            <div><img src="images/icons8_caduceus_100px_1 1.svg" alt="Caduceus"><p>Medicine</p></div>
+            <div><img src="images/icons8_Car_Accident_100px_1 1.svg" alt="Car Accident"><p>Emergency</p></div>
+            <div><img src="images/icons8_Child_with_Pacifier_200px_1 1.svg" alt="Child with Pacifier"><p>Pediatrics</p></div>
+        </div>
+    </section>
+
+    <!-- Our Service Section -->
+
+    <section id="service">
+        <h2 class="text-box2">Our Services</h2>
+        <div class="grid3">
+            <div class="grid3-text">
+                <img src="images/icons8_nurse_240px_1 1.svg" alt="Nurse">
+                <h2>Prima Care Physicia</h2>
+                <p>Lmedic Center provides the following health care services</p>
+                <ul>
+                    <li><i class="fa-solid fa-check fa"></i>Complete Family Health Care</li>
+                    <li><i class="fa-solid fa-check fa"></i>EKG</li>
+                    <li><i class="fa-solid fa-check fa"></i>X-Ray</li>
+                    <li><i class="fa-solid fa-check fa"></i>ULtrasound</li>
+                    <li><i class="fa-solid fa-check fa"></i>Acute and Chronic Care</li>
+                    <li><i class="fa-solid fa-check fa"></i>Well Woman's Exam</li>
+                </ul>
+            </div>
+
+            <div class="grid3-text">
+                <img src="images/icons8_vegan_food_128px 1.svg" alt="">
+                <h2>Hslistic Wellness</h2>
+                <p>You should feel your best no matter the season</p>
+                <ul>
+                    <li><i class="fa-solid fa-check fa"></i>Weight Loss</li>
+                    <li><i class="fa-solid fa-check fa"></i>Therapeutic Medical Massage</li>
+                    <li><i class="fa-solid fa-check fa"></i>Holistic Skin Care</li>
+                    <li><i class="fa-solid fa-check fa"></i>K-Laser Pain Management</li>
+                    <li><i class="fa-solid fa-check fa"></i>Detoxification</li>
+                    <li><i class="fa-solid fa-check fa"></i>Hormone Replacement Theraphy</li>
+                </ul>
+            </div>
+
+            <div id="coloured" class="grid3-text">
+                <img src="images/icons8_Coronavirus_200px 1.svg" alt="">
+                <h2>Allergy an Immunology</h2>
+                <p>Lmedic Center provides the following health care services</p>
+                <ul>
+                    <li><i class="fa-solid fa-check fa"></i>Allergy and Immunology</li>
+                    <li><i class="fa-solid fa-check fa" ></i>Testing for Immunology</li>
+                    <li><i class="fa-solid fa-check fa"></i>Allergy Treatment</li>
+                    <li><i class="fa-solid fa-check fa"></i>Asthma Care</li>
+                    <li><i class="fa-solid fa-check fa"></i>Dematology</li>
+                    <li><i class="fa-solid fa-check fa"></i>Prediatric Allergy</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Question Section -->
+
+    <section class="question">
+        <h2 class="text-box2 tag">Frequently asked Questions</h2>
+        <div class="flex">
+            <div class="flex-left">
+                <div class="question-box text-box3">
+                    <h2 class="question-text">How do i make an appointment? <i class="fa-solid fa-angle-up"></i></h2>
+                    <p>If you would like to make an appointment with any of our practitioners, please 
+                    contact our reception staff. Alternatively you can book an appointment online. 
+                    Every effort will be made to accomodate your preffered time and choice of practitioner</p>
+                </div>
+                <div class="question-box"><h2 class="question-text">How do i get a copy of my record? <i class="fa-solid fa-angle-down"></i></h2></div>
+                <div class="question-box"><h2 class="question-text">Is there a charge for extra copies? <i class="fa-solid fa-angle-down"></i></h2></div>
+                <div class="question-box"><h2 class="question-text">How so i know the right practitioner? <i class="fa-solid fa-angle-down"></i></h2></div>
+                <a href="" class="btn2">Ask Question</a>
+            </div>
+            <div class="flex-img">
+                <img src="images/humberto-chavez-FVh_yqLR9eA-unsplash 1.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- Our specialist Section -->
+
+    <section class="specialist">
+        <h2 class="text-box2 tag spec">Our Specialist</h2>
+        <div class="grid4">
+            <div class="grid4-box">
+                <img src="images/Rectangle 20.png" alt="">
+                <h2>Dr. William Geralg</h2>
+                <p class="occupation">Cardiotherapist</p>
+                <div class="duration">
+                    <div class="days">
+                        <p>Mon - Thur</p>
+                        <p>Friday</p>
+                        <p>Saturday</p>
+                    </div>
+                    <div class="time">
+                        <p>08:00 - 20:00</p>
+                        <p>08:00 - 20:00</p>
+                        <p>08:00 - 20:00</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid4-box">
+                <img src="images/Rectangle 21.png" alt="">
+                <h2>Dr. Mike Ebubu</h2>
+                <p class="occupation">Gynecologist</p>
+                <div class="duration">
+                    <div class="days">
+                        <p>Mon - Thur</p>
+                        <p>Friday</p>
+                        <p>Saturday</p>
+                    </div>
+                    <div class="time">
+                        <p>08:00 - 20:00</p>
+                        <p>08:00 - 20:00</p>
+                        <p>08:00 - 20:00</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid4-box">
+                <img src="images/Rectangle 22.png" alt="">
+                <h2>Dr. Egbon Cedric</h2>
+                <p class="occupation">Pschiotrist</p>
+                <div class="duration">
+                    <div class="days">
+                        <p>Mon - Thur</p>
+                        <p>Friday</p>
+                        <p>Saturday</p>
+                    </div>
+                    <div class="time">
+                        <p>08:00 - 20:00</p>
+                        <p>08:00 - 20:00</p>
+                        <p>08:00 - 20:00</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonial Section -->
+
+    <section class="testimonial">
+        <h2 text-box2 tag>Testimonial</h2>
+        <img src="images/Ellipse 3.png" alt="">
+        <em><p>"Joby mode searching for a job easier and reduced the time fromwhile eleminating the ofice 
+            to office convenctional mode of application"</p></em>
+        <b><p><i class="fa-solid fa-star" style="color: #f7ef02;"></i><i class="fa-solid fa-star" style="color: #f7ef02;"></i>
+        <i class="fa-solid fa-star" style="color: #f7ef02;"></i><i class="fa-solid fa-star" style="color: #f7ef02;"></i>
+        -Orando Philip<span style="color:#0052FF">(UI Designer)</span></p></b>
+        <br>
+        <button><i class="fa-solid fa-circle-chevron-left arrow"></i></button>
+        <button><i class="fa-solid fa-circle-chevron-right arrow"></i></button>
+
+    </section>
+
+    <!-- Job Opportunity Section -->
+    <section class="job">
+        <h2 class="text-box2-input text-box2">Looking For a Professional</h2>
+        <div class="job-flex">
+            <div class="job-img"><img class="big" src="images/austin-distel-7bMdiIqz_J4-unsplash 1@2x.png" alt=""></div>
+            <div class="info">
+                <h2 class="text-box2">Looking For a Professional</h2>
+                <fieldset>
+                    <legend>Fullname</legend>
+                    <input type="text" placeholder="Jon Doe">
+                </fieldset>
+                <fieldset>
+                    <legend>Email</legend>
+                    <input type="email" placeholder="aiseosauyidahar@gmail.com">
+                </fieldset>
+                <fieldset>
+                    <legend>Message</legend>
+                    <input class="message" type="text" placeholder="Type message here">
+                </fieldset>
+                <a href="" class="btn2 job-btn">Book Appointment </a>
+            </div>
+        </div>
+    </section>
+    <div class="map">
+
+    </div>
+    <!-- Contact Section -->
+    <section id="contact">
+        <img src="images/Rectangle 69.png" alt="">
+        <h2>Contact Us</h2>
+        <p>Do not hesitate to contact us</p>
+        <div class="contact-info">
+            <div  class="first-info">
+                <img src="images/icons8_marker_240px_1 1.png" alt="">
+                <h3>Our Address</h3>
+                <p>27 Fulton Street Brooklyn, New York</p>
+            </div>
+            <div>
+                <img src="images/icons8_phone_128px_1 1.png" alt="">
+                <h3>Phone Number</h3>
+                <p>Manager <span style="color: #0052FF;">+918065502317</span></p>
+            </div>
+            <div class="last-info">
+                <img src="images/icons8_Clock_Checked_240px 1.png" alt="">
+                <h3>Working hours</h3>
+                <p>Mon - Sat 8:00am - 9:00pm</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content"><b><p>Medialab</p></b></div>
+        <div class="footer-content">Medi. Copyright 2020</div>
+        <div class="footer-content">
+            <img src="images/bx_bxl-linkedin.png" alt="">
+            <img src="images/bx_bxl-youtube.png" alt="">
+            <img src="images/bx_bxl-facebook.png" alt="">
+            <img src="images/bx_bxl-instagram.png" alt="">
+        </div>
+    </footer>
+
+    <script>
+        // for the nav bar
+
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+</html>
